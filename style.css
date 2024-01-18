@@ -1,0 +1,39 @@
+body {
+    overflow-y: hidden; 
+    margin-bottom: 20px; 
+}
+
+.main {
+    display: flex;
+    overflow-x: auto;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.left {
+    width: 270px;
+    overflow-y: auto;
+    overflow-x: hidden;
+     
+    padding: 5px;
+    border: 1px solid black;
+    height: 90vh;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.immg {
+    width: 300px;
+    height: 200px;
+}
+
+.right {
+    flex-grow: 1;
+    border: 1px solid black;
+    margin-left: 10px;
+    width: 100%;
+    height: 91vh;
+    margin-top: 5px; 
+    margin-bottom: 20px;
+}
+
